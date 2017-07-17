@@ -287,7 +287,7 @@ generated quantities {
 ```
 
 ```{r, results="hide", message=FALSE, echo=FALSE, cache=TRUE}
-sim_data_model <- stan_model('sim_gp_latent.stan')
+sim_data_model <- stan_model('stan_models/gp_simple_latent.stan')
 ```
 
 ```{r, cache=TRUE}
